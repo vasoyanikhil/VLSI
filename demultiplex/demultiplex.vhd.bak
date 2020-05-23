@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity demultiplex is 
+port(a,s1,s0:in std_logic;b,c,d,e,f:out std_logic);
+end demultiplex;
+architecture demultiplex of demultiplex is
+begin
+  f=a and(not s1) and (not s0) or a and (not s1) and s0 or a and s1 and (not s0) or a and s1 and s0;
+end demultiplex;  
+  

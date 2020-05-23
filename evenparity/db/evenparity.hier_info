@@ -1,0 +1,8 @@
+|evenparity
+a => p~0.IN0
+b => p~0.IN1
+c => p~1.IN1
+d => p~2.IN1
+p <= p~2.DB_MAX_OUTPUT_PORT_TYPE
+
+

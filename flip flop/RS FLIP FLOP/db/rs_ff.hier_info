@@ -1,0 +1,11 @@
+|rs_ff
+r => process_0~4.IN1
+r => process_0~1.IN0
+s => d~1.DATAB
+s => d~0.DATAB
+s => process_0~3.IN0
+s => process_0~2.IN1
+clk => d.CLK
+q <= d.DB_MAX_OUTPUT_PORT_TYPE
+
+

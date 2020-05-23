@@ -1,0 +1,14 @@
+|multiplex
+a => e~1.IN1
+b => e~4.IN1
+c => e~7.IN0
+d => e~10.IN0
+s0 => e~10.IN1
+s0 => e~7.IN1
+s0 => e~0.IN0
+s1 => e~11.IN1
+s1 => e~5.IN1
+s1 => e~2.IN0
+e <= e~12.DB_MAX_OUTPUT_PORT_TYPE
+
+

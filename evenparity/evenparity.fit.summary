@@ -1,0 +1,9 @@
+Fitter Status : Successful - Tue Jan 29 16:59:11 2013
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : evenparity
+Top-level Entity Name : evenparity
+Family : MAX3000A
+Device : EPM3064ALC44-10
+Timing Models : Final
+Total macrocells : 1 / 64 ( 2 % )
+Total pins : 9 / 34 ( 26 % )

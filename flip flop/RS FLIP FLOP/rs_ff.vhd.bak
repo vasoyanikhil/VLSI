@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity rs_ff is
+port(rs:in std_logic_vector(1 downto 0);
+       clk:in std_logic;
+       q:out std_logic);
+end rs_ff;
+architecture rs_ff of rs_ff is
+    signal d: std_logic;
+begin
+   process(r,s,clk)
+   begin
+     if(rising_edge(clk)) then
+         if(rs="00") then d<=d;
+         elsif(rs="01") then d<=s;
+         elsif(rs="10") then d<=s;
+         end if;
+    end if;
+  end process;
+    q<=d;
+  end rs_ff;

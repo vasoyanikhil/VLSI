@@ -1,0 +1,8 @@
+|t_ff
+t => d~2.OUTPUTSELECT
+t => d~1.OUTPUTSELECT
+t => d~0.IN0
+clk => d.CLK
+q <= d.DB_MAX_OUTPUT_PORT_TYPE
+
+

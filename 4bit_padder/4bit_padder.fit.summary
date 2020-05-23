@@ -1,0 +1,9 @@
+Fitter Status : Successful - Tue Jan 29 16:12:41 2013
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : 4bit_padder
+Top-level Entity Name : bit4_padder
+Family : MAX3000A
+Device : EPM3064ALC44-10
+Timing Models : Final
+Total macrocells : 7 / 64 ( 11 % )
+Total pins : 17 / 34 ( 50 % )

@@ -1,0 +1,14 @@
+|demultiplex
+a => d~0.IN0
+a => b~1.IN1
+s1 => d~0.IN1
+s1 => b~0.IN0
+s0 => e~0.IN1
+s0 => c~0.IN1
+s0 => b~2.IN0
+b <= b~3.DB_MAX_OUTPUT_PORT_TYPE
+c <= c~0.DB_MAX_OUTPUT_PORT_TYPE
+d <= d~1.DB_MAX_OUTPUT_PORT_TYPE
+e <= e~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

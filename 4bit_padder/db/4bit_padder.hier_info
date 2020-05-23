@@ -1,0 +1,30 @@
+|bit4_padder
+a[3] => c4~1.IN0
+a[3] => c4~0.IN0
+a[3] => s4~0.IN0
+a[2] => c~6.IN0
+a[2] => c~5.IN0
+a[2] => s3~0.IN0
+a[1] => c~2.IN0
+a[1] => c~1.IN0
+a[1] => s2~0.IN0
+a[0] => c~0.IN0
+a[0] => s1~0.IN0
+b[3] => c4~3.IN0
+b[3] => c4~0.IN1
+b[3] => s4~0.IN1
+b[2] => c~8.IN0
+b[2] => c~5.IN1
+b[2] => s3~0.IN1
+b[1] => c~4.IN0
+b[1] => c~1.IN1
+b[1] => s2~0.IN1
+b[0] => c~0.IN1
+b[0] => s1~0.IN1
+s1 <= s1~1.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= s2~1.DB_MAX_OUTPUT_PORT_TYPE
+s3 <= s3~1.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= s4~1.DB_MAX_OUTPUT_PORT_TYPE
+c4 <= c4~4.DB_MAX_OUTPUT_PORT_TYPE
+
+

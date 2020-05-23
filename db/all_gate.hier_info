@@ -1,0 +1,23 @@
+|all_gate
+a => h~0.IN0
+a => g~0.IN0
+a => i~0.IN0
+a => f~0.IN0
+a => e~0.IN0
+a => d~0.IN0
+a => c~0.IN0
+b => h~0.IN1
+b => g~0.IN1
+b => i~0.IN1
+b => f~0.IN1
+b => d~0.IN1
+b => c~0.IN1
+c <= c~0.DB_MAX_OUTPUT_PORT_TYPE
+d <= d~0.DB_MAX_OUTPUT_PORT_TYPE
+e <= e~0.DB_MAX_OUTPUT_PORT_TYPE
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+g <= g~0.DB_MAX_OUTPUT_PORT_TYPE
+h <= h~0.DB_MAX_OUTPUT_PORT_TYPE
+i <= i~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

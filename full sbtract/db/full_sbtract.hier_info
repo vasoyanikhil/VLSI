@@ -1,0 +1,11 @@
+|full_sbtract
+a => e~0.IN0
+a => d~0.IN0
+b => e~1.IN1
+b => d~0.IN1
+c => e~3.IN1
+c => d~1.IN1
+d <= d~1.DB_MAX_OUTPUT_PORT_TYPE
+e <= e~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
